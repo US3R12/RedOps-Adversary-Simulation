@@ -14,7 +14,7 @@
 3. Ensure both VMs are using **Host-Only Adapter** mode.
 
 ### Test Connectivity:
-```bash
+
 ping 192.168.XX.X   # From parrotOS
 
 ##
